@@ -14,8 +14,7 @@
     "category": "Marketing",
     "capabilities": ["mcp"],
     "defaultPrompt": [
-      "Zoek doorheen confluence en Teams naar de laatste projecten van AE Studio / Quietloud en berichten hierover. Toon suggesties voor projecten die kunnen gebruikt worden als basis voor een social media post",
-      "Zoek naar het laatste project van AE Studio / Quietloud and stel hiervoor een Linkedin post met een passende image, text en hashtags"
+      "Gebruik de $quietloud-start-post om een LinkedIn post te maken"
     ]
   },
   "mcpServers": "./.mcp.json"
