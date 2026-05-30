@@ -1,0 +1,1 @@
+In het VRT programma De Markt werd zonet een mooie uiteenzetting gebracht over Roularta Media Group, met daarbij ook aandacht voor de Mijn Magazines-app. Altijd fijn om het resultaat van het harde werk van AE-collega’s zo in de spotlight te zien verschijnen. Je kan de aflevering herbekijken op VRT Max: https://www.vrt.be/vrtmax/a-z/de-markt/2026/de-markt-d20260131/

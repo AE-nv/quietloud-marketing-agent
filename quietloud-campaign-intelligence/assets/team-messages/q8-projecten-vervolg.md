@@ -1,0 +1,5 @@
+Go op volgende Q8 projecten
+Kuwait Petrolium NWE - fleet drivers - third party cards. Dit is het vervolg project op de EV integratie. Nu gaat het gekende team van start om de B2B klanten te servicen vanuit de app. Dit jaar ronden we de THINK fase af, weer een uitdaging van nieuwe partners, extra integraties .... 
+Kuwait Petrolium NWE - Subscribify. Een extra project binnen het Storyblok traject. We gaan een soort van wizard maken om een juiste Q8 fleet offer aan te bieden. Ideaal maken we direct een link met de effect aanvraag van de kaarten. Een zeer fijn weetje, dit is de tweede keer dat ons intern SB project - de mobile selector -  de basis legde van de deal en ook deels hergebruikt kan worden. 
+Kuwait Petrolium NWE - Digital PO opleiding on the job. Zoals de titel het zegt, gaan we een op maat gemaakte opleiding geven aan de Product owner en het Q8 oils teams om hun digitale project kennis te verbreden en verbeteren. Het uiteindelijke doel is dat Q8 deze opleiding breder kan inzetten en dus herhaaldelijk op het agenda zet. 
+Met dank aan heel veel mensen: Aagje, Lander, Wouter, Renée, Erwin en het Q8 web en app team
