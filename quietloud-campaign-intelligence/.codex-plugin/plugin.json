@@ -1,0 +1,19 @@
+{
+  "name": "quietloud-campaign-intelligence",
+  "version": "0.1.0",
+  "description": "Turns internal project knowledge into validated campaign representations — personas, copy, visual direction, and human-gated export.",
+  "author": {
+    "name": "QuietLoud / Wintercircus Hackathon 2026"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "QuietLoud Campaign Intelligence",
+    "shortDescription": "From internal knowledge to validated campaign assets.",
+    "longDescription": "Paste a Confluence page, Teams thread, or wiki note. The pipeline extracts signals, reasons about your best audience, builds a persona, picks the right outreach method, generates copy and visual direction, assembles a complete campaign pack, and gates everything behind human confirmation.",
+    "developerName": "QuietLoud",
+    "category": "Marketing",
+    "capabilities": ["mcp"],
+    "defaultPrompt": "Start a QuietLoud campaign workflow."
+  },
+  "mcpServers": "./.mcp.json"
+}

@@ -1,0 +1,42 @@
+{
+  "channel": "quietloud-internal",
+  "thread_subject": "Datalink wrap — what do we do with this?",
+  "messages": [
+    {
+      "author": "Saar V.",
+      "role": "Strategy Lead",
+      "timestamp": "2026-05-12T09:14:00Z",
+      "text": "Datalink wrapped last week. Really strong results — 67 MQLs vs 40 target, pipeline influenced nearly doubled. I think there's a story here worth pushing externally. We basically proved a playbook."
+    },
+    {
+      "author": "Robbe D.",
+      "role": "Content Lead",
+      "timestamp": "2026-05-12T09:32:00Z",
+      "text": "Agreed. The checklist + webinar combo was genuinely new for us and it worked. I keep thinking about how to position this — is it a case study? A methodology piece? Or do we just do a LinkedIn post series and see what lands?"
+    },
+    {
+      "author": "Nina T.",
+      "role": "Performance Lead",
+      "timestamp": "2026-05-12T09:45:00Z",
+      "text": "I'd push for something more structured than a post series. The webinar stat alone — 140 registrants for a 80-person SaaS client with no existing audience — is genuinely impressive. That's a hook. But we need to be careful about what we can say publicly given the NDA."
+    },
+    {
+      "author": "Saar V.",
+      "role": "Strategy Lead",
+      "timestamp": "2026-05-12T10:02:00Z",
+      "text": "We can anonymise. 'Belgian B2B SaaS scale-up' is fine. The numbers are real and we have sign-off to use them anonymised. The angle I keep coming back to: this isn't about Datalink, it's about proving the playbook works for a certain type of client. That's what we're selling to the next Datalink."
+    },
+    {
+      "author": "Robbe D.",
+      "role": "Content Lead",
+      "timestamp": "2026-05-12T10:18:00Z",
+      "text": "So the audience isn't Datalink's market — it's our market. Ops-heavy scale-ups without brand equity looking to build pipeline. That actually makes the LinkedIn angle really strong. Who's writing this up?"
+    },
+    {
+      "author": "Nina T.",
+      "role": "Performance Lead",
+      "timestamp": "2026-05-12T10:25:00Z",
+      "text": "Let's loop in campaign intel. I want a proper ICP mapped before we write anything. Last time we guessed the audience and wasted 3 weeks."
+    }
+  ]
+}
