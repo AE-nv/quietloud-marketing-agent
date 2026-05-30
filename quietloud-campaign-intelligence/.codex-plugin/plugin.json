@@ -8,8 +8,8 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "QuietLoud Campaign Intelligence",
-    "shortDescription": "From internal knowledge to validated campaign assets.",
-    "longDescription": "Paste a Confluence page, Teams thread, or wiki note. The pipeline extracts signals, reasons about your best audience, builds a persona, picks the right outreach method, generates copy and visual direction, assembles a complete campaign pack, and gates everything behind human confirmation.",
+    "shortDescription": "From Confluence knowledge to grounded social posts.",
+    "longDescription": "Search Confluence, extract grounded metrics with sub-agents, generate social-ready copy, and create campaign visuals with Codex image generation.",
     "developerName": "QuietLoud",
     "category": "Marketing",
     "capabilities": ["mcp"],

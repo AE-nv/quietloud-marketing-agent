@@ -1,40 +1,11 @@
 mcp_servers:
-  signal-extraction:
-    command: /Users/gilles.lenaerts/codespace/sodastraw/wintercircus/.venv/bin/python
+  atlassian:
+    command: npx
     args:
-      - /Users/gilles.lenaerts/codespace/sodastraw/wintercircus/mcp-servers/signal-extraction/server.py
-
-  audience-reasoning:
-    command: /Users/gilles.lenaerts/codespace/sodastraw/wintercircus/.venv/bin/python
+      - -y
+      - mcp-remote@latest
+      - https://mcp.atlassian.com/v1/mcp/authv2
+  playwright:
+    command: npx
     args:
-      - /Users/gilles.lenaerts/codespace/sodastraw/wintercircus/mcp-servers/audience-reasoning/server.py
-
-  customer-profile:
-    command: /Users/gilles.lenaerts/codespace/sodastraw/wintercircus/.venv/bin/python
-    args:
-      - /Users/gilles.lenaerts/codespace/sodastraw/wintercircus/mcp-servers/customer-profile/server.py
-
-  outreach-method:
-    command: /Users/gilles.lenaerts/codespace/sodastraw/wintercircus/.venv/bin/python
-    args:
-      - /Users/gilles.lenaerts/codespace/sodastraw/wintercircus/mcp-servers/outreach-method/server.py
-
-  executing-agent:
-    command: /Users/gilles.lenaerts/codespace/sodastraw/wintercircus/.venv/bin/python
-    args:
-      - /Users/gilles.lenaerts/codespace/sodastraw/wintercircus/mcp-servers/executing-agent/server.py
-
-  message-formatting:
-    command: /Users/gilles.lenaerts/codespace/sodastraw/wintercircus/.venv/bin/python
-    args:
-      - /Users/gilles.lenaerts/codespace/sodastraw/wintercircus/mcp-servers/message-formatting/server.py
-
-  graphical-pipeline:
-    command: /Users/gilles.lenaerts/codespace/sodastraw/wintercircus/.venv/bin/python
-    args:
-      - /Users/gilles.lenaerts/codespace/sodastraw/wintercircus/mcp-servers/graphical-pipeline/server.py
-
-  representation:
-    command: /Users/gilles.lenaerts/codespace/sodastraw/wintercircus/.venv/bin/python
-    args:
-      - /Users/gilles.lenaerts/codespace/sodastraw/wintercircus/mcp-servers/representation/server.py
+      - "@playwright/mcp@latest"
