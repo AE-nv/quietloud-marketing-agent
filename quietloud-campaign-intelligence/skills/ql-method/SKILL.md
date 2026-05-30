@@ -24,15 +24,13 @@ Choose the method that best matches the persona's context and the nature of the 
 
 Available methods: `linkedin_post`, `email`, `website_block`, `faq`, `snippet`, `hubspot_note`, `sales_talking_points`
 
-## Output
+## Narration
 
-```json
-{
-  "method": "linkedin_post",
-  "rationale": "string",
-  "required_sections": ["string"]
-}
-```
+Before the JSON, write one sentence naming the chosen method and the core reason it fits this persona — e.g. "Choosing linkedin_post because Mia scrolls LinkedIn for peer signals, not email."
+
+## Carry forward
+
+`method`, `rationale`, `required_sections[]`
 
 ## Rules
 

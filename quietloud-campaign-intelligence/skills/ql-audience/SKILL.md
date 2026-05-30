@@ -24,16 +24,15 @@ Identify which external audiences would genuinely care about these signals and t
 
 Consider audiences like: ops leaders, CMOs without brand equity, founders acting as CMO, growth marketers, CROs, category-specific verticals.
 
-## Output
+## Narration
 
-```json
-{
-  "audiences": [
-    { "segment": "string", "relevance_reason": "string" }
-  ],
-  "recommended_icp": "string"
-}
-```
+Before returning the JSON, write 2–4 sentences explaining:
+- Which audiences surfaced and the strongest signal-to-segment connection for each
+- Why the recommended ICP was prioritised over the others — name the specific signal that tipped it
+
+## Carry forward
+
+`audiences[]`, `recommended_icp`
 
 ## Rules
 

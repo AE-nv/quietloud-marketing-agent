@@ -22,17 +22,16 @@ Use context from `quietloud-background` for QuietLoud's target market and positi
 
 Build a persona that represents the human who should receive the campaign asset. Be specific — pain points should describe real frustrations, not generic marketing concerns.
 
-## Output
+## Narration
 
-```json
-{
-  "persona": "string",
-  "pain_points": ["string"],
-  "buying_trigger": "string",
-  "relevance_score": 8,
-  "assumptions": ["string"]
-}
-```
+Before the JSON, write 2–3 sentences introducing the persona:
+- Who they are and why the signals point to this person specifically
+- The single biggest assumption made and how confident you are in it
+- The buying trigger in plain language
+
+## Carry forward
+
+`persona`, `pain_points[]`, `buying_trigger`, `relevance_score`, `assumptions[]`
 
 ## Rules
 

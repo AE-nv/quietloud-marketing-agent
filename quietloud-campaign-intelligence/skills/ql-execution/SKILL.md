@@ -23,16 +23,15 @@ Use context from `quietloud-background` for QuietLoud's tone, positioning, and c
 
 Produce a generation plan detailed enough that a writer can produce the asset without seeing the original signals. Include structure, angle, key proof points, tone, and what to avoid.
 
-## Output
+## Narration
 
-```json
-{
-  "generation_plan": "string",
-  "tone": "string",
-  "cta": "string",
-  "missing_inputs": ["string"]
-}
-```
+Before the JSON, write 2 sentences:
+- The angle the asset will open with and why (what emotional or rational hook)
+- The single proof point that will carry the most weight
+
+## Carry forward
+
+`generation_plan`, `tone`, `cta`, `missing_inputs[]`
 
 ## Rules
 

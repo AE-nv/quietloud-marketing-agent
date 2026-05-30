@@ -24,17 +24,15 @@ Use context from `quietloud-background` for QuietLoud's voice, brand principles,
 
 Write the complete marketing asset. Match the format to the method (LinkedIn post format, email format, website block format, etc.). Be specific, punchy, and grounded in evidence. Avoid generic marketing language.
 
-## Output
+## Narration
 
-```json
-{
-  "copy": "string",
-  "headline": "string",
-  "cta": "string",
-  "grounded_claims": ["string"],
-  "warnings": ["string"]
-}
-```
+First, render the asset in its native format — if it is a LinkedIn post, display it as it would appear on LinkedIn (headline on its own line, body copy, CTA). Do not wrap this in a code block.
+
+If `warnings` is non-empty, list them explicitly in plain prose after the copy: "Before publishing, note: ..."
+
+## Carry forward
+
+`copy`, `headline`, `cta`, `grounded_claims[]`, `warnings[]`
 
 ## Rules
 

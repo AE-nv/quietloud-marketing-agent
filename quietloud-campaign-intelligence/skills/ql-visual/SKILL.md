@@ -29,15 +29,13 @@ For website blocks: conversion-focused, brand-consistent.
 
 Optionally: call Codex built-in image generation with the `image_prompt`.
 
-## Output
+## Narration
 
-```json
-{
-  "style_direction": "string",
-  "layout_notes": "string",
-  "image_prompt": "string"
-}
-```
+Before the JSON, describe the visual direction in 2 sentences as if briefing a designer verbally — colour mood, what is in the frame, what the image should make the viewer feel.
+
+## Carry forward
+
+`style_direction`, `layout_notes`, `image_prompt`
 
 ## Rules
 

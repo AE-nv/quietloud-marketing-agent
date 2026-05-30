@@ -24,15 +24,18 @@ Extract three types of output:
 - **themes**: recurring strategic angles or stories that could be told externally
 - **quotable_facts**: the most striking, shareable data points — specific stats, numbers, or outcomes
 
-## Output
+## Narration
 
-```json
-{
-  "signals": ["string"],
-  "themes": ["string"],
-  "quotable_facts": ["string"]
-}
-```
+Before returning the JSON, write a short paragraph (3–5 sentences) in plain prose:
+- How many signals were extracted and what they cluster around
+- The single most striking quotable fact and why it stands out
+- The dominant theme that emerged
+
+Format: plain text, no bullet lists.
+
+## Carry forward
+
+`signals[]`, `themes[]`, `quotable_facts[]`
 
 ## Rules
 

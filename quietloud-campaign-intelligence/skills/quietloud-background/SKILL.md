@@ -1,6 +1,6 @@
 ---
 name: quietloud-background
-description: Details the history of quietload in Dutch
+description: AE and QuietLoud company background — brand positioning, target audiences, and content strategy. Used by all pipeline skills for brand voice.
 ---
 
 # Context

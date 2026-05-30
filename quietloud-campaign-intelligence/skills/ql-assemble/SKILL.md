@@ -21,39 +21,24 @@ All outputs from prior skills:
 
 Assemble the complete campaign pack and produce a validation summary that clearly separates grounded claims from assumptions and flags what needs human review.
 
-## Output
+## Narration
 
-```json
-{
-  "customer_profile": {
-    "persona": "string",
-    "pain_points": ["string"],
-    "buying_trigger": "string",
-    "relevance_score": 8
-  },
-  "selected_method": "string",
-  "message_asset": {
-    "headline": "string",
-    "copy": "string",
-    "cta": "string"
-  },
-  "visual_direction": {
-    "style_direction": "string",
-    "layout_notes": "string",
-    "image_prompt": "string"
-  },
-  "validation_summary": {
-    "grounded_claims": ["string"],
-    "unverified_assumptions": ["string"],
-    "human_review_required": ["string"],
-    "confidentiality_risks": ["string"]
-  },
-  "human_confirmation_status": "pending"
-}
-```
+Render the complete campaign pack as a readable document in this order — not as JSON:
+
+1. **Persona** — name, pain point summary, buying trigger, relevance score
+2. **Selected method** — one line
+3. **Asset** — headline and copy in native format
+4. **Visual direction** — one descriptive sentence
+5. **Grounded claims** — bullet list of claims backed by source material
+6. **Needs review** — clearly labelled section for warnings, unverified assumptions, and confidentiality risks
+
+End with the human gate question: "Approve for export, request edits, or reject?"
+
+## Carry forward
+
+Nothing — this is the terminal step. Output goes to the human.
 
 ## Rules
 
-- Always set `human_confirmation_status` to `"pending"` — never `"approved"`
 - A human must explicitly approve before anything is exported or published
 - The validation summary must be honest — do not bury warnings
