@@ -9,7 +9,6 @@ from mcp.server import Server
 from mcp.server.stdio import stdio_server
 from mcp.types import Tool, TextContent
 
-from shared.llm import call_claude
 from shared.schemas import AudienceReasoningInput, AudienceReasoningOutput
 
 PROMPT = (Path(__file__).parent / "prompt.md").read_text()
@@ -32,8 +31,11 @@ async def list_tools():
 async def call_tool(name: str, arguments: dict):
     inp = AudienceReasoningInput(**arguments)
     user_content = f"Signals:\n{json.dumps(inp.signals, indent=2)}\n\nThemes:\n{json.dumps(inp.themes, indent=2)}"
-    result = await call_claude(PROMPT, user_content, AudienceReasoningOutput)
-    return [TextContent(type="text", text=result.model_dump_json())]
+    return [TextContent(type="text", text=json.dumps({
+        "system_prompt": PROMPT,
+        "user_content": user_content,
+        "output_schema": AudienceReasoningOutput.model_json_schema(),
+    }))]
 
 
 if __name__ == "__main__":

@@ -72,6 +72,3 @@ codex plugin add quietloud-campaign-intelligence@personal 2>/dev/null || \
 
 echo ""
 echo "Done. Open a new Codex session and say: 'Start a QuietLoud campaign workflow'"
-echo ""
-echo "Don't forget to set your API key:"
-echo "  export ANTHROPIC_API_KEY=<your-key>"

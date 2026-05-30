@@ -8,7 +8,7 @@ from mcp.server import Server
 from mcp.server.stdio import stdio_server
 from mcp.types import Tool, TextContent
 
-from shared.llm import call_claude
+import json
 from shared.schemas import MessageFormattingInput, MessageFormattingOutput
 
 PROMPT = (Path(__file__).parent / "prompt.md").read_text()
@@ -31,13 +31,16 @@ async def list_tools():
 async def call_tool(name: str, arguments: dict):
     inp = MessageFormattingInput(**arguments)
     user_content = (
-        f"Generation plan:\n{inp.generation_plan}\n\n"
+        f"Plan:\n{inp.generation_plan}\n\n"
         f"Persona:\n{inp.persona}\n\n"
         f"Tone: {inp.tone}\n\n"
         f"CTA: {inp.cta}"
     )
-    result = await call_claude(PROMPT, user_content, MessageFormattingOutput)
-    return [TextContent(type="text", text=result.model_dump_json())]
+    return [TextContent(type="text", text=json.dumps({
+        "system_prompt": PROMPT,
+        "user_content": user_content,
+        "output_schema": MessageFormattingOutput.model_json_schema(),
+    }))]
 
 
 if __name__ == "__main__":

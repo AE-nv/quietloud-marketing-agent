@@ -1,6 +1,6 @@
 import asyncio
+import json
 import sys
-import os
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
@@ -9,7 +9,6 @@ from mcp.server import Server
 from mcp.server.stdio import stdio_server
 from mcp.types import Tool, TextContent
 
-from shared.llm import call_claude
 from shared.schemas import SignalExtractionInput, SignalExtractionOutput
 
 PROMPT = (Path(__file__).parent / "prompt.md").read_text()
@@ -31,8 +30,11 @@ async def list_tools():
 @server.call_tool()
 async def call_tool(name: str, arguments: dict):
     inp = SignalExtractionInput(**arguments)
-    result = await call_claude(PROMPT, inp.raw_content, SignalExtractionOutput)
-    return [TextContent(type="text", text=result.model_dump_json())]
+    return [TextContent(type="text", text=json.dumps({
+        "system_prompt": PROMPT,
+        "user_content": inp.raw_content,
+        "output_schema": SignalExtractionOutput.model_json_schema(),
+    }))]
 
 
 if __name__ == "__main__":
