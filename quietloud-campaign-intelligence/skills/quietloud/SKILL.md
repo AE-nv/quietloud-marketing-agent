@@ -11,12 +11,15 @@ Use this skill when the user wants to run the full QuietLoud campaign pipeline.
 
 ## Input
 
-Ask the user for source content:
+Before executing the pipeline, ask for which project we want to highlight. This project maybe be:
+
 - A Confluence page (link, title, or pasted text)
 - A Teams thread or internal discussion
 - A wiki note or project briefing
 
-If nothing is provided, use the mock data in `mock-data/`.
+The user may also ask that you search for a project to highlight. If so, please use available context information (Atlassian, Confluence, etc...) to search through old AE Studio / Quietloud project that can be used as reference and suggest this project before proceding with the pipelie.
+
+Before perform the pipeline, collect information about the suggested project to fill your context
 
 ## Pipeline
 
@@ -35,7 +38,7 @@ After each step, carry the relevant output fields forward. Do not repeat work al
 
 ## Human Gate
 
-After `ql-assemble`, present the complete campaign pack and ask:
+After `ql-assemble`, present the complete campaign pack not as JSON, but as a textual explination about your research and ask:
 
 > "Do you want to approve this for export, request edits, or reject it?"
 
