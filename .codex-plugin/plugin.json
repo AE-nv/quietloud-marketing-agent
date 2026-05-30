@@ -1,0 +1,7 @@
+{
+  "name": "quietload-marketing-agents",
+  "version": "1.0.0",
+  "description": "Reusable flow in order to research potential interesting post for QuietLoad",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json"
+}
