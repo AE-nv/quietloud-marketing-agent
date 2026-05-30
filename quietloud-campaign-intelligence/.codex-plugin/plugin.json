@@ -6,17 +6,5 @@
     "name": "QuietLoud / Wintercircus Hackathon 2026"
   },
   "skills": "./skills/",
-  "interface": {
-    "displayName": "QuietLoud Campaign Intelligence",
-    "shortDescription": "From Confluence knowledge to grounded social posts.",
-    "longDescription": "Search Confluence, extract grounded metrics with sub-agents, generate social-ready copy, and create campaign visuals with Codex image generation.",
-    "developerName": "QuietLoud",
-    "category": "Marketing",
-    "capabilities": ["mcp"],
-    "defaultPrompt": [
-      "Gebruik de $quietloud skill om een LinkedIn post te maken",
-      "Gebruik de $quietloud skill om een blogpost te maken"
-    ]
-  },
   "mcpServers": "./.mcp.json"
 }
