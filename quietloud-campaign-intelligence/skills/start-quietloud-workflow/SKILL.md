@@ -1,5 +1,5 @@
 ---
-name: quietloud
+name: quietloud-start
 description: Turn internal project knowledge into a validated campaign pack — personas, copy, visual direction, and human-gated export.
 ---
 

@@ -13,7 +13,7 @@
     "developerName": "QuietLoud",
     "category": "Marketing",
     "capabilities": ["mcp"],
-    "defaultPrompt": "Start a QuietLoud campaign workflow."
+    "defaultPrompt": ["Zoek doorheen de laatste projecten van AE Studi", ""]
   },
   "mcpServers": "./.mcp.json"
 }
